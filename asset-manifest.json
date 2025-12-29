@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/pory-web/static/css/main.e08f5155.css",
-    "main.js": "/pory-web/static/js/main.b04d5203.js",
+    "main.css": "/pory-web/static/css/main.ab51fbd6.css",
+    "main.js": "/pory-web/static/js/main.6b09a988.js",
     "static/js/453.8276dc5d.chunk.js": "/pory-web/static/js/453.8276dc5d.chunk.js",
     "static/media/137.png": "/pory-web/static/media/137.eea33dc2f416d9554279.png",
     "index.html": "/pory-web/index.html",
-    "main.e08f5155.css.map": "/pory-web/static/css/main.e08f5155.css.map",
-    "main.b04d5203.js.map": "/pory-web/static/js/main.b04d5203.js.map",
+    "main.ab51fbd6.css.map": "/pory-web/static/css/main.ab51fbd6.css.map",
+    "main.6b09a988.js.map": "/pory-web/static/js/main.6b09a988.js.map",
     "453.8276dc5d.chunk.js.map": "/pory-web/static/js/453.8276dc5d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e08f5155.css",
-    "static/js/main.b04d5203.js"
+    "static/css/main.ab51fbd6.css",
+    "static/js/main.6b09a988.js"
   ]
 }
