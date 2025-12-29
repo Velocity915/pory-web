@@ -161,3 +161,70 @@
   transform: scale(0.98);
 }
 
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.username {
+  color: #FFCB05;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+.logout-button {
+  background-color: #ff4444;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.2s;
+}
+
+.logout-button:hover {
+  background-color: #cc0000;
+}
+
+.remove-button {
+  background-color: #ff6666;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.85em;
+  transition: background-color 0.2s;
+}
+
+.remove-button:hover {
+  background-color: #ff4444;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-size: 24px;
+  color: #3466AF;
+  background-color: #282c34;
+}
+
+.admin-button {
+  background-color: #3466AF;
+  color: #FFCB05;
+  border: 2px solid #FFCB05;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.2s;
+}
+
+.admin-button:hover {
+  background-color: #FFCB05;
+  color: #3466AF;
+}

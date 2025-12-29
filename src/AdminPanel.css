@@ -1,0 +1,156 @@
+.admin-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.admin-panel {
+  background-color: #282c34;
+  border: 3px solid #FFCB05;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 800px;
+  width: 90%;
+  max-height: 80vh;
+  overflow-y: auto;
+}
+
+.admin-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #3466AF;
+  padding-bottom: 10px;
+}
+
+.admin-header h2 {
+  color: #FFCB05;
+  margin: 0;
+}
+
+.admin-close {
+  background-color: #ff4444;
+  color: white;
+  border: none;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.admin-close:hover {
+  background-color: #cc0000;
+}
+
+.admin-loading {
+  color: white;
+  text-align: center;
+  padding: 40px;
+  font-size: 18px;
+}
+
+.admin-error {
+  background-color: #ff4444;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.admin-stats {
+  margin-bottom: 25px;
+}
+
+.admin-stats h3,
+.admin-users h3 {
+  color: #3466AF;
+  margin-bottom: 15px;
+}
+
+.stats-grid {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.stat-box {
+  background-color: #3466AF;
+  border-radius: 8px;
+  padding: 15px 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 120px;
+}
+
+.stat-number {
+  color: #FFCB05;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.stat-label {
+  color: white;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.users-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.users-table th {
+  background-color: #3466AF;
+  color: #FFCB05;
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #444;
+}
+
+.users-table td {
+  background-color: #3a3f47;
+  color: white;
+  padding: 10px;
+  border: 1px solid #444;
+}
+
+.users-table tr:hover td {
+  background-color: #444;
+}
+
+.admin-badge {
+  background-color: #FFCB05;
+  color: #282c34;
+  padding: 3px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.delete-user-btn {
+  background-color: #ff6666;
+  color: white;
+  border: none;
+  padding: 5px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 13px;
+  transition: background-color 0.2s;
+}
+
+.delete-user-btn:hover {
+  background-color: #ff4444;
+}
