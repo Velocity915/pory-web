@@ -22,9 +22,38 @@
   margin-top: 20px;
 }
 
+.main-content-wrapper {
+  display: inline-block;
+  border: 3px solid #282c34;
+  border-radius: 8px;
+  padding: 5px;
+}
+
+.table-and-sort-wrapper {
+  display: inline-flex;
+  gap: 5px;
+  align-items: flex-start;
+}
+
 .table-container {
   border: 2px solid #666;
   display: inline-block;
+}
+
+.sort-controls {
+  border: 2px solid #3466AF;
+  border-radius: 4px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  min-width: 150px;
+}
+
+.sort-controls h3 {
+  margin: 0 0 5px 0;
+  color: #3466AF;
+  font-size: 1.2em;
 }
 
 .data-table {
@@ -34,8 +63,8 @@
 
 .data-table th {
   border: 1px solid #ccc;
-  padding: 10px;
-  text-align: left;
+  padding: 5px;
+  text-align: center;
   font-weight: bold;
   color: #FFCB05;
   background-color: #3466AF;
@@ -43,8 +72,8 @@
 
 .data-table td {
   border: 1px solid #ccc;
-  padding: 10px;
-  text-align: left;
+  padding: 5px;
+  text-align: center;
 }
 
 
@@ -75,5 +104,60 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.add-row-form {
+  margin-bottom: 5px;
+}
+
+.input-wrapper {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.input-wrapper h3 {
+  border: 2px solid #3466AF;
+  border-radius: 4px;
+  padding: 5px;
+  margin: 0 0 0 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.form-container {
+  border: 2px solid #3466AF;
+  border-radius: 4px;
+  padding: 5px;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.add-row-form input {
+  border: 1px solid #ccc;
+  padding: 5px;
+}
+
+.sort-button {
+  background-color: #FFCB05;
+  color: #3466AF;
+  border: 2px solid #3466AF;
+  padding: 8px 12px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: all 0.2s;
+  width: 100%;
+  font-size: 0.95em;
+}
+
+.sort-button:hover {
+  background-color: #3466AF;
+  color: #FFCB05;
+  transform: scale(1.02);
+}
+
+.sort-button:active {
+  transform: scale(0.98);
 }
 
